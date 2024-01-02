@@ -21,6 +21,7 @@ Instead of making use of their `PPA`, I went with the option to use the [flatpak
    ```bash
    flatpak install flathub io.openrct2.OpenRCT2
    ```
+1. Install [innoextract](https://constexpr.org/innoextract/)
 1. Purchase the original game of Roller Coaster Tycoon® 2: Triple Thrill Pack by heading over to [GOG](https://www.gog.com/en/game/rollercoaster_tycoon_2).
 1. In the top menu bar on GOG, click the icon with your account name, then click "Games", then click on "Roller Coaster Tycoon® 2: Triple Thrill Pack
 ".
