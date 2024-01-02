@@ -1,5 +1,4 @@
-# Calleli's blog
-A place where i jot stuff down that i need to remember, but that also might be of interest to others 😊
+This is a place where i jot stuff down that i need to remember, but that also might be of interest to others 😊
 
 
 ## Articles 
