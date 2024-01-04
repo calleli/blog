@@ -21,7 +21,14 @@ Instead of making use of their `PPA`, I went with the option to use the [flatpak
    ```bash
    flatpak install flathub io.openrct2.OpenRCT2
    ```
-1. Install [innoextract](https://constexpr.org/innoextract/)
+
+### Setup innoextract
+1. Install [innoextract](https://constexpr.org/innoextract/).
+   ```bash
+   apt-get install innoextract
+   ```
+
+### Get the original game files
 1. Purchase the original game of Roller Coaster Tycoon® 2: Triple Thrill Pack by heading over to [GOG](https://www.gog.com/en/game/rollercoaster_tycoon_2).
 1. In the top menu bar on GOG, click the icon with your account name, then click "Games", then click on "Roller Coaster Tycoon® 2: Triple Thrill Pack
 ".
@@ -37,6 +44,8 @@ Instead of making use of their `PPA`, I went with the option to use the [flatpak
    cd ~/rct2
    ```
 1. Copy over the offline backup game installer that you downloaded earlier to this directory.
+
+### Extract the game files
 1. Extract the game files by running `innoextract` on the file by running  
    ```bash
    innoextract `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`
@@ -51,7 +60,7 @@ flatpak run io.openrct2.OpenRCT2
 ```
 If it's the first time starting the game, a dialog will ask you to provide the path of the game files, which should be something like: 
 ```
-/home/YOUR_USERNAME/documents/rct/app
+/home/YOUR_USERNAME/documents/rct2/app
 ```
 
 ### Configure
@@ -59,3 +68,15 @@ You can do some additional setup by editing the `config.ini` at this path
 ```bash
 /home/YOUR_USERNAME/.var/app/io.openrct2.OpenRCT2/config/OpenRCT2/config.ini
 ```
+
+For example, I personally thought the game was too zoomed out.
+Luckily, there is a value you can edit in the config file that adjusts the scaling factor of the window.
+Open your favorite editor and edit the file like:
+```bash
+nano /home/YOUR_USERNAME/.var/app/io.openrct2.OpenRCT2/config/OpenRCT2/config.ini
+```
+And scroll down until you see a value named ```window_scale```. The default value for this is `1.000000`.
+I thought a better value for this was `1.650000`, but that's just personal preference.  
+Save the file.  
+If you had the game running when changing this file, you need to first close the game and then start it again as described in [starting the game](#Start-the-game)
+
