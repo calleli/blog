@@ -23,10 +23,10 @@ Instead of making use of their `PPA`, I went with the option to use the [flatpak
    ```
 
 ### Setup innoextract
-1. Install [innoextract](https://constexpr.org/innoextract/).
-   ```bash
-   apt-get install innoextract
-   ```
+Install [innoextract](https://constexpr.org/innoextract/).
+```bash
+apt-get install innoextract
+```
 
 ### Get the original game files
 1. Purchase the original game of Roller Coaster Tycoon® 2: Triple Thrill Pack by heading over to [GOG](https://www.gog.com/en/game/rollercoaster_tycoon_2).
@@ -46,11 +46,11 @@ Instead of making use of their `PPA`, I went with the option to use the [flatpak
 1. Copy over the offline backup game installer that you downloaded earlier to this directory.
 
 ### Extract the game files
-1. Extract the game files by running `innoextract` on the file by running  
-   ```bash
-   innoextract `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`
-   ```
-   This should give you two new directories, `tmp` and `app`.
+Extract the game files by running `innoextract` on the file by running  
+```bash
+innoextract `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`
+```
+This should give you two new directories, `tmp` and `app`.
 
 
 ### Start the game
