@@ -28,12 +28,11 @@ Install [innoextract](https://constexpr.org/innoextract/).
 apt-get install innoextract
 ```
 
-### Get the original game files
-1. Purchase the original game of Roller Coaster Tycoon® 2: Triple Thrill Pack by heading over to [GOG](https://www.gog.com/en/game/rollercoaster_tycoon_2).
-1. In the top menu bar on GOG, click the icon with your account name, then click "Games", then click on "Roller Coaster Tycoon® 2: Triple Thrill Pack
-".
+### Get the original game files for Rct2
+1. Purchase the original game of `Roller Coaster Tycoon® 2: Triple Thrill Pack` by heading over to [GOG](https://www.gog.com/en/game/rollercoaster_tycoon_2).
+1. In the top menu bar on GOG, click the icon with your account name, then click "Games", then click on "Roller Coaster Tycoon® 2: Triple Thrill Pack".
 1. Download the offline backup game installer:
-![click that text to download](./installer.png)
+![click that text to download](./installer_rct2.png)
    The downloaded file should be named something like `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`.
 1. Open a terminal and create a directory somewhere suitable on your machine, for example at
    ```bash
@@ -44,13 +43,11 @@ apt-get install innoextract
    cd ~/rct2
    ```
 1. Copy over the offline backup game installer that you downloaded earlier to this directory.
-
-### Extract the game files
-Extract the game files by running `innoextract` on the file by running  
-```bash
-innoextract `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`
-```
-This should give you two new directories, `tmp` and `app`.
+1. Extract the game files by running `innoextract` on the file by running  
+   ```bash
+   innoextract `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`
+   ```
+   This should give you two new directories, `tmp` and `app`.
 
 
 ### Start the game
@@ -62,6 +59,39 @@ If it's the first time starting the game, a dialog will ask you to provide the p
 ```
 /home/YOUR_USERNAME/documents/rct2/app
 ```
+
+### Get the original game files for Rct1 (optional)
+This step is optional, but if you are like me and think that the original Rct1 game is the best game ever made, continue with the following steps:
+
+1. Purchase the original game of `Roller Coaster Tycoon® Deluxe` by heading over to [GOG](https://www.gog.com/en/game/rollercoaster_tycoon_deluxe).
+1. In the top menu bar on GOG, click the icon with your account name, then click "Games", then click on "Roller Coaster Tycoon® Deluxe".
+1. Download the offline backup game installer:
+![click that text to download](./installer_rct1.png)
+   The downloaded file should be named something like `setup_rollercoaster_tycoon_2_triple_thrill_pack_2.01.043_(17987).exe`.
+1. Open a terminal and create a directory somewhere suitable on your machine, for example at
+   ```bash
+   mkdir ~/rct1
+   ```
+   change the working directory to the newly created directory
+   ```bash
+   cd ~/rct1
+   ```
+1. Copy over the offline backup game installer that you downloaded earlier to this directory.
+1. Extract the game files by running `innoextract` on the file by running  
+   ```bash
+   innoextract `'setup_rollercoaster_tycoon_deluxe_1.20.015_(17822) (1).exe'`
+   ```
+   This should give you two new directories, `tmp` and `app`.
+1. Start the game [as described above](#Start-the-game)
+1. Click `options` in the main menu  
+![options button](./options.png)
+1. Click the `Path to RCT1 installation` in the tab with a wrench icon  
+![Path to RCT1 installation](./rct1_path.png)
+1. Provide the path of the game files, which should be something like: 
+```
+/home/YOUR_USERNAME/documents/rct1/app
+```
+1. Close the game and open it again.
 
 ### Configure
 You can do some additional setup by editing the `config.ini` at this path
