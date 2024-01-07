@@ -3,6 +3,9 @@
 I hit some snags when following the [official documentation](https://openrct2.org/quickstart) for OpenRCT2.  
 Instead of making use of their `PPA`, I went with the option to use the [flatpak](https://flatpak.org/) as stated in the [github readme](https://github.com/OpenRCT2/OpenRCT2) for the project.
 
+### Setup Linux on your Chromebook
+Before starting this guide, make sure you have Linux set up on your Chromebook. If you need help setting it up, have a look at this documentation [this documentation](https://support.google.com/chromebook/answer/9145439?hl=en).
+
 ### Setup flatpak
 1. check if you have `flatpak` installed on your machine by running:
    ```bash
