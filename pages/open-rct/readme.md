@@ -60,13 +60,13 @@ flatpak run io.openrct2.OpenRCT2
 ```
 
 #### Configuring the game path (only needed at first launch)
-If it's the first time starting the game, a dialog will ask you to provide the path of the game files:
+If it's the first time starting the game, a dialog will ask you to provide the path of the game files:  
 ![click OK](./game_path_file_1.png)
 
-select the option that you already have the game installed, then click OK 
+select the option that you already have the game installed, then click OK  
 ![select this and then OK](./game_path_file_2.png)
 
-navigate the file browser to the app folder path, which should be something like `/home/YOUR_USERNAME/documents/rct2/app`, then click OK 
+navigate the file browser to the app folder path, which should be something like `/home/YOUR_USERNAME/documents/rct2/app`, then click OK  
 ![select the app folder and then OK](./game_path_file_2.png)
 
 
