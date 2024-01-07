@@ -58,10 +58,17 @@ Start the game by opening a terminal and running:
 ```bash
 flatpak run io.openrct2.OpenRCT2
 ```
-If it's the first time starting the game, a dialog will ask you to provide the path of the game files, which should be something like: 
-```
-/home/YOUR_USERNAME/documents/rct2/app
-```
+
+#### Configuring the game path (only needed at first launch)
+If it's the first time starting the game, a dialog will ask you to provide the path of the game files:
+![click OK](./game_path_file_1.png)
+
+select the option that you already have the game installed, then click OK 
+![select this and then OK](./game_path_file_2.png)
+
+navigate the file browser to the app folder path, which should be something like `/home/YOUR_USERNAME/documents/rct2/app`, then click OK 
+![select the app folder and then OK](./game_path_file_2.png)
+
 
 ### Get the original game files for Rct1 (optional)
 This step is optional, but if you are like me and think that the original Rct1 game is the best game ever made, continue with the following steps:
