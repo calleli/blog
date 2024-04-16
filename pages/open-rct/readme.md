@@ -67,7 +67,7 @@ select the option that you already have the game installed, then click OK
 ![select this and then OK](./game_path_file_2.png)
 
 navigate the file browser to the app folder path, which should be something like `/home/YOUR_USERNAME/documents/rct2/app`, then click OK  
-![select the app folder and then OK](./game_path_file_2.png)
+![select the app folder and then OK](./game_path_file_3.png)
 
 
 ### Get the original game files for Rct1 (optional)
