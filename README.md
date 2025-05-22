@@ -1,4 +1,7 @@
-This is a place where i jot stuff down that i need to remember, but that also might be of interest to others 😊
+# Blog
+https://calleli.github.io/blog/
+
+A place where i jot stuff down that i need to remember, that might also be of interest to others.
 
 
 ## Articles 
